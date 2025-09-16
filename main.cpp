@@ -27,7 +27,21 @@ void addStudent(std::vector<Student>& database) {
 
 // Заглушка для удаления студента из базы данных (реализация будет добавлена позже)
 void deleteStudent(std::vector<Student>& database) {
-    std::cout << "Функция удаления пока не реализована.\n";
+    if (database.empty()) {
+        std::cout << "База данных пуста. Нечего удалять.\n";
+        return;
+    }
+
+    std::cout << "Введите индекс студента для удаления: ";
+    size_t index;
+    std::cin >> index;
+
+    if (index < database.size()) {
+        database.erase(database.begin() + static_cast<long long>(index));
+        std::cout << "Студент удалён.\n";
+    } else {
+        std::cout << "Неверный индекс.\n";
+    }
 }
 
 // Функция для вывода всех студентов из базы данных
