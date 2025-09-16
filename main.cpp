@@ -25,6 +25,11 @@ void addStudent(std::vector<Student>& database) {
     std::cout << "Студент добавлен в базу данных.\n";
 }
 
+// Заглушка для удаления студента из базы данных (реализация будет добавлена позже)
+void deleteStudent(std::vector<Student>& database) {
+    std::cout << "Функция удаления пока не реализована.\n";
+}
+
 // Функция для вывода всех студентов из базы данных
 void displayStudents(const std::vector<Student>& database) {
     std::cout << "Список студентов:\n";
@@ -44,6 +49,7 @@ int main() {
         std::cout << "Меню:\n";
         std::cout << "1. Добавить студента\n";
         std::cout << "2. Вывести список студентов\n";
+        std::cout << "3. Удалить студента\n";
         std::cout << "0. Выход\n";
         std::cout << "Выберите действие: ";
         std::cin >> choice;
@@ -54,6 +60,9 @@ int main() {
                 break;
             case 2:
                 displayStudents(database);
+                break;
+            case 3:
+                deleteStudent(database);
                 break;
             case 0:
                 std::cout << "Выход из программы.\n";
