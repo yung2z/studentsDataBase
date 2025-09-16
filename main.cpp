@@ -23,7 +23,7 @@ void addStudent(std::vector<Student>& database) {
     std::cin >> student.gpa;
 
     database.push_back(student);
-    std::cout << "Студент добавлен в базу данных.\n";
+    std::cout << "Студент добавлен в базу данных. Всего студентов: " << database.size() << "\n";
 }
 
 // Заглушка для удаления студента из базы данных (реализация будет добавлена позже)
@@ -35,7 +35,7 @@ void deleteStudent(std::vector<Student>& database) {
 
     size_t index;
     while (true) {
-        std::cout << "Введите индекс студента для удаления: ";
+        std::cout << "Введите индекс студента для удаления (0-" << (database.size() - 1) << "): ";
         if (!(std::cin >> index)) {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -50,12 +50,12 @@ void deleteStudent(std::vector<Student>& database) {
     }
 
     database.erase(database.begin() + static_cast<long long>(index));
-    std::cout << "Студент удалён.\n";
+    std::cout << "Студент удалён. Осталось студентов: " << database.size() << "\n";
 }
 
 // Функция для вывода всех студентов из базы данных
 void displayStudents(const std::vector<Student>& database) {
-    std::cout << "Список студентов:\n";
+    std::cout << "Список студентов (" << database.size() << "):\n";
     for (size_t i = 0; i < database.size(); ++i) {
         const Student& student = database[i];
         std::cout << "#" << i << "\n";
@@ -63,6 +63,9 @@ void displayStudents(const std::vector<Student>& database) {
         std::cout << "Возраст: " << student.age << "\n";
         std::cout << "Специальность: " << student.major << "\n";
         std::cout << "Средний балл: " << student.gpa << "\n\n";
+    }
+    if (database.empty()) {
+        std::cout << "(пусто)\n";
     }
 }
 
@@ -76,7 +79,7 @@ int main() {
         std::cout << "2. Вывести список студентов\n";
         std::cout << "3. Удалить студента\n";
         std::cout << "0. Выход\n";
-        std::cout << "Выберите действие: ";
+        std::cout << "Выберите действие (0-3): ";
         std::cin >> choice;
 
         switch (choice) {
