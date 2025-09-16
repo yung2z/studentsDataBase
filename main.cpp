@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <limits>
 
 struct Student {
     std::string name;
@@ -32,16 +33,24 @@ void deleteStudent(std::vector<Student>& database) {
         return;
     }
 
-    std::cout << "Введите индекс студента для удаления: ";
     size_t index;
-    std::cin >> index;
-
-    if (index < database.size()) {
-        database.erase(database.begin() + static_cast<long long>(index));
-        std::cout << "Студент удалён.\n";
-    } else {
-        std::cout << "Неверный индекс.\n";
+    while (true) {
+        std::cout << "Введите индекс студента для удаления: ";
+        if (!(std::cin >> index)) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Пожалуйста, введите число.\n";
+            continue;
+        }
+        if (index >= database.size()) {
+            std::cout << "Неверный индекс. Допустимый диапазон: 0-" << (database.size() - 1) << "\n";
+            continue;
+        }
+        break;
     }
+
+    database.erase(database.begin() + static_cast<long long>(index));
+    std::cout << "Студент удалён.\n";
 }
 
 // Функция для вывода всех студентов из базы данных
