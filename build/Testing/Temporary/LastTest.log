@@ -1,10 +1,10 @@
-Start testing: Sep 17 15:13 RTZ 2 (çèìà)
+Start testing: Sep 17 15:21 RTZ 2 (çèìà)
 ----------------------------------------------------------
 1/6 Testing: StudentsDbTests.AddSingleStudent
 1/6 Test: StudentsDbTests.AddSingleStudent
 Command: "C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build/Release/tests.exe" "--gtest_filter=StudentsDbTests.AddSingleStudent" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build
-"StudentsDbTests.AddSingleStudent" start time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.AddSingleStudent" start time: Sep 17 15:21 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = StudentsDbTests.AddSingleStudent
@@ -22,7 +22,7 @@ Note: Google Test filter = StudentsDbTests.AddSingleStudent
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StudentsDbTests.AddSingleStudent" end time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.AddSingleStudent" end time: Sep 17 15:21 RTZ 2 (çèìà)
 "StudentsDbTests.AddSingleStudent" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/6 Test: StudentsDbTests.DisplayEmpty
 Command: "C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build/Release/tests.exe" "--gtest_filter=StudentsDbTests.DisplayEmpty" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build
-"StudentsDbTests.DisplayEmpty" start time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DisplayEmpty" start time: Sep 17 15:21 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = StudentsDbTests.DisplayEmpty
@@ -48,7 +48,7 @@ Note: Google Test filter = StudentsDbTests.DisplayEmpty
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StudentsDbTests.DisplayEmpty" end time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DisplayEmpty" end time: Sep 17 15:21 RTZ 2 (çèìà)
 "StudentsDbTests.DisplayEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/6 Test: StudentsDbTests.AddTwoAndDisplay
 Command: "C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build/Release/tests.exe" "--gtest_filter=StudentsDbTests.AddTwoAndDisplay" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build
-"StudentsDbTests.AddTwoAndDisplay" start time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.AddTwoAndDisplay" start time: Sep 17 15:21 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = StudentsDbTests.AddTwoAndDisplay
@@ -74,7 +74,7 @@ Note: Google Test filter = StudentsDbTests.AddTwoAndDisplay
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StudentsDbTests.AddTwoAndDisplay" end time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.AddTwoAndDisplay" end time: Sep 17 15:21 RTZ 2 (çèìà)
 "StudentsDbTests.AddTwoAndDisplay" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/6 Test: StudentsDbTests.DeleteWithRetryOnInvalidIndex
 Command: "C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build/Release/tests.exe" "--gtest_filter=StudentsDbTests.DeleteWithRetryOnInvalidIndex" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build
-"StudentsDbTests.DeleteWithRetryOnInvalidIndex" start time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DeleteWithRetryOnInvalidIndex" start time: Sep 17 15:21 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = StudentsDbTests.DeleteWithRetryOnInvalidIndex
@@ -100,7 +100,7 @@ Note: Google Test filter = StudentsDbTests.DeleteWithRetryOnInvalidIndex
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StudentsDbTests.DeleteWithRetryOnInvalidIndex" end time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DeleteWithRetryOnInvalidIndex" end time: Sep 17 15:21 RTZ 2 (çèìà)
 "StudentsDbTests.DeleteWithRetryOnInvalidIndex" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/6 Test: StudentsDbTests.DeleteFromEmpty
 Command: "C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build/Release/tests.exe" "--gtest_filter=StudentsDbTests.DeleteFromEmpty" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build
-"StudentsDbTests.DeleteFromEmpty" start time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DeleteFromEmpty" start time: Sep 17 15:21 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = StudentsDbTests.DeleteFromEmpty
@@ -132,7 +132,7 @@ C:\Users\yung\Desktop\base_parallel\test\studentsDataBase\tests.cpp(66): error: 
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Failed.
-"StudentsDbTests.DeleteFromEmpty" end time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DeleteFromEmpty" end time: Sep 17 15:21 RTZ 2 (çèìà)
 "StudentsDbTests.DeleteFromEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -140,7 +140,7 @@ Test Failed.
 6/6 Test: StudentsDbTests.DisplayOneStudentFormat
 Command: "C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build/Release/tests.exe" "--gtest_filter=StudentsDbTests.DisplayOneStudentFormat" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build
-"StudentsDbTests.DisplayOneStudentFormat" start time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DisplayOneStudentFormat" start time: Sep 17 15:21 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = StudentsDbTests.DisplayOneStudentFormat
@@ -158,8 +158,8 @@ Note: Google Test filter = StudentsDbTests.DisplayOneStudentFormat
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StudentsDbTests.DisplayOneStudentFormat" end time: Sep 17 15:13 RTZ 2 (çèìà)
+"StudentsDbTests.DisplayOneStudentFormat" end time: Sep 17 15:21 RTZ 2 (çèìà)
 "StudentsDbTests.DisplayOneStudentFormat" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 17 15:13 RTZ 2 (çèìà)
+End testing: Sep 17 15:21 RTZ 2 (çèìà)
