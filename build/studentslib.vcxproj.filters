@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yung\Desktop\base_parallel\test\studentsDataBase\students.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yung\Desktop\base_parallel\test\studentsDataBase\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{325B1070-39D2-3298-8DBB-584EA0E6CA8B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

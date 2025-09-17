@@ -1,0 +1,10 @@
+^C:\USERS\YUNG\DESKTOP\BASE_PARALLEL\TEST\STUDENTSDATABASE\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLETEST\CMAKELISTS.TXT
+setlocal
+C:\cmake\bin\cmake.exe -SC:/Users/yung/Desktop/base_parallel/test/studentsDataBase -BC:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build --check-stamp-file C:/Users/yung/Desktop/base_parallel/test/studentsDataBase/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

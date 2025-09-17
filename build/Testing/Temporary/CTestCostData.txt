@@ -1,0 +1,8 @@
+StudentsDbTests.AddSingleStudent 1 0.0127585
+StudentsDbTests.DisplayEmpty 1 0.009457
+StudentsDbTests.AddTwoAndDisplay 1 0.0095271
+StudentsDbTests.DeleteWithRetryOnInvalidIndex 1 0.0095308
+StudentsDbTests.DeleteFromEmpty 0 0
+StudentsDbTests.DisplayOneStudentFormat 1 0.0093282
+---
+StudentsDbTests.DeleteFromEmpty
